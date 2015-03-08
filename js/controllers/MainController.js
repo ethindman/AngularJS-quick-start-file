@@ -2,51 +2,51 @@ app.controller('MainController', ['$scope', function($scope) {
   
   $scope.demos = [
     {
-      title: "Hide",
-      description: "Click the button to hide the text below",
-      button: "Hide",
+      title: "This is an example title",
+      description: "To change the contents in these boxes, go to js>controllers>MainController.js and edit the data there.",
+      button: "Name your button",
       myFunction: function hide() {
-        alert("hide demo");
+        alert("This function is currently alerts this message, but you can change it to whatever you want.");
       }
     },
     {
-      title: "Show",
-      description: "Click the button to reveal a pretty picture",
-      button: "Show",
-      myFunction: function show() {
-        alert("show demo");
+      title: "This is an example title",
+      description: "Put in your custom description here",
+      button: "Name your button",
+      myFunction: function hide() {
+        alert("This function is currently alerts this message, but you can change it to whatever you want.");
       }
     },
     {
-      title: "Toggle",
-      description: "Click the button to toggle something",
-      button: "Toggle",
-      myFunction: function toggle() {
-        alert("toggle demo");
+      title: "This is an example title",
+      description: "Put in your custom description here",
+      button: "Name your button",
+      myFunction: function hide() {
+        alert("This function is currently alerts this message, but you can change it to whatever you want.");
       }
     },
     {
-      title: "Slide Down",
-      description: "Click the button to reveal an image via a slide down animation.",
-      button: "Slide Down",
-      myFunction: function slideDown() {
-        alert("slideDown demo");
+      title: "This is an example title",
+      description: "Put in your custom description here",
+      button: "Name your button",
+      myFunction: function hide() {
+        alert("This function is currently alerts this message, but you can change it to whatever you want.");
       }
     },
     {
-      title: "Slide Toggle",
-      description: "Click the button once to reveal an image with a sliding animation, and again to hide it.",
-      button: "Slide Toggle",
-      myFunction: function slideToggle() {
-        alert("slideToggle Demo");
+      title: "This is an example title",
+      description: "Put in your custom description here",
+      button: "Name your button",
+      myFunction: function hide() {
+        alert("This function is currently alerts this message, but you can change it to whatever you want.");
       }
     },
     {
-      title: "Slide Up",
-      description: "Click the button to make the image below disappear with a sliding animation",
-      button: "Slide Up",
-      myFunction: function slideUp() {
-        alert("slideUp demo!");
+      title: "This is an example title",
+      description: "Put in your custom description here",
+      button: "Name your button",
+      myFunction: function hide() {
+        alert("This function is currently alerts this message, but you can change it to whatever you want.");
       }
     }
   ];
