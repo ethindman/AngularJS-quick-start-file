@@ -9,7 +9,14 @@ div.container {
 
 div.demo {
 	text-align: center;
-	background: #DDD;
 	margin: 15px auto;
 	padding: 15px 20px 25px 20px;
+}
+
+.grey {
+	background: #DDD;
+}
+
+.red {
+	background: crimson;
 }

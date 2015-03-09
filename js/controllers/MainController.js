@@ -2,51 +2,53 @@ app.controller('MainController', ['$scope', function($scope) {
   
   $scope.demos = [
     {
-      title: "This is an example title",
-      description: "To change the contents in these boxes, go to js>controllers>MainController.js and edit the data there.",
-      button: "Name your button",
-      myFunction: function hide() {
-        alert("This function is currently alerts this message, but you can change it to whatever you want.");
+      title: "You can change everything here!",
+      description: "To do so, go to js>controllers>MainController.js and edit the data and functions there!",
+      button: "FadeOut",
+      myFunction: function fadeOut() {
+       $('h1').fadeOut();
       }
     },
     {
-      title: "This is an example title",
-      description: "Put in your custom description here",
-      button: "Name your button",
-      myFunction: function hide() {
-        alert("This function is currently alerts this message, but you can change it to whatever you want.");
+      title: "You can change everything here!",
+      description: "To do so, go to js>controllers>MainController.js and edit the data and functions there!",
+      button: "FadeIn",
+      myFunction: function fadeIn() {
+        $('h1').fadeIn();
       }
     },
     {
-      title: "This is an example title",
-      description: "Put in your custom description here",
-      button: "Name your button",
-      myFunction: function hide() {
-        alert("This function is currently alerts this message, but you can change it to whatever you want.");
+      title: "You can change everything here!",
+      description: "To do so, go to js>controllers>MainController.js and edit the data and functions there!",
+      button: "Change CSS property",
+      myFunction: function addClass() {
+        $('div.demo').removeClass('grey');
+        $('div.demo').addClass('red');
       }
     },
     {
-      title: "This is an example title",
-      description: "Put in your custom description here",
-      button: "Name your button",
-      myFunction: function hide() {
-        alert("This function is currently alerts this message, but you can change it to whatever you want.");
+      title: "You can change everything here!",
+      description: "To do so, go to js>controllers>MainController.js and edit the data and functions there!",
+      button: "Alert",
+      myFunction: function alert() {
+        alert("This function currently alerts this message, but you can change the function to whatever you want -- just like the other functions.");
       }
     },
     {
-      title: "This is an example title",
-      description: "Put in your custom description here",
-      button: "Name your button",
-      myFunction: function hide() {
-        alert("This function is currently alerts this message, but you can change it to whatever you want.");
+      title: "You can change everything here!",
+      description: "To do so, go to js>controllers>MainController.js and edit the data and functions there!",
+      button: "Toggle",
+      myFunction: function toggle() {
+        $('p').toggle();
       }
     },
     {
-      title: "This is an example title",
-      description: "Put in your custom description here",
-      button: "Name your button",
-      myFunction: function hide() {
-        alert("This function is currently alerts this message, but you can change it to whatever you want.");
+      title: "You can change everything here!",
+      description: "To do so, go to js>controllers>MainController.js and edit the data and functions there!",
+      button: "Remove Class",
+      myFunction: function removeClass() {
+        $('div.demo').removeClass('red');
+        $('div.demo').addClass('grey');
       }
     }
   ];
