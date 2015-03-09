@@ -30,8 +30,8 @@ app.controller('MainController', ['$scope', function($scope) {
       title: "You can change everything here!",
       description: "To do so, go to js>controllers>MainController.js and edit the data and functions there!",
       button: "Alert",
-      myFunction: function alert() {
-        alert("This function currently alerts this message, but you can change the function to whatever you want -- just like the other functions.");
+      myFunction: function alertSomething() {
+        alert("working!");
       }
     },
     {
